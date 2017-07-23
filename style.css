@@ -3,6 +3,7 @@
 - add a font family to the whole page */
 body {
     font-family: 'Vollkorn', serif;
+    position: relative;
 }
 
 /* Video: 
@@ -156,10 +157,20 @@ video#bgvideo {
 }
     
 
-
-
-
 /* Style the Footer*/
+
+.footer {
+     background-color: rgba(0,0,0,0.5);
+    // background-color: rgba(29,167,179,0.1);
+    color: #bbb;
+    padding: 10px 0;
+    margin-top: 150px;
+    font-family: helvetica, sans-serif;
+    font-size: 15px;
+    text-align: center;
+    font-weight: 100;
+    letter-spacing: 1.2px;
+}
 
 /**/
 
