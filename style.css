@@ -21,7 +21,18 @@ video#bgvideo {
 - hide the video and set picture as backgroud (use media queries)
 - make it spread accross the whole webpage */
 
-
+/*
+@media (max-width:768px) {
+    body{
+        background: url(img/bg_stary_sm.jpg) center center fixed no-repeat;
+        background-size: cover;
+        
+    }
+    #bgvideo{
+        display: none;
+    }
+}
+*/
 
 /* Style the home section and elements inside it:
 - reduce the margin-bottom of h1 and h2 
@@ -110,6 +121,43 @@ video#bgvideo {
 }
 
 /* Style the pictures and nav-brand for different screens */
+
+@media (max-width: 768px) {
+    #myCarousel{
+        width: 90%;
+    }
+    
+    .carousel-inner .item img{
+        height: 300px;
+    }
+    
+    .carousel-inner h2 {
+        font-size: 23px;
+    }  
+}
+
+@media (max-width: 400px) {
+       #myCarousel{
+        width: 98%;
+    }
+    
+    .carousel-inner .item img{
+        height: 200px;
+    }
+    
+    .carousel-inner h2 {
+        font-size: 17px;
+    }  
+    
+    .navbar-custom .navbar-brand {
+        font-size: 12px;
+    }
+    
+}
+    
+
+
+
 
 /* Style the Footer*/
 
